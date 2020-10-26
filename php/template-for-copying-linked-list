@@ -1,0 +1,13 @@
+$temp = $head;$tempNewList = null;$headNewList = null;
+        while($temp != null) {
+            if($tempNewList == null) {
+                $tempNewList = new Node($temp->val);
+                $headNewList = $tempNewList;
+            } else {
+                $tempNewList->next = new Node($temp->val);
+                if($temp->next != null)
+                    $tempNewList = $tempNewList->next;
+            }
+            $temp = $temp->next;
+        }
+        print_r($headNewList);
