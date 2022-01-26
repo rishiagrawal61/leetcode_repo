@@ -1,3 +1,4 @@
+<?php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -91,3 +92,4 @@ class Solution {
         return $list2;
     }
 }
+?>

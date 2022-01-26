@@ -1,3 +1,4 @@
+<?php
 class Solution {
 
     /**
@@ -22,3 +23,4 @@ class Solution {
         return substr($string, $K-1, 1);
     }
 }
+?>

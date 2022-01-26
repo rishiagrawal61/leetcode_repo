@@ -1,3 +1,4 @@
+<?php
 /**
  * Definition for a Node.
  * class Node {
@@ -36,3 +37,4 @@ class Solution {
         }
     }
 }
+?>

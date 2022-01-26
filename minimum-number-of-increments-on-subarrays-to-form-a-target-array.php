@@ -1,3 +1,4 @@
+<?php
 class Solution {
 
     /**
@@ -12,3 +13,4 @@ class Solution {
         return $a;
     }
 }
+?>
